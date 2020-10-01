@@ -29,6 +29,6 @@ export class AppComponent  {
 
   logout(ev) {
     ev.preventDefault();
-    localStorage.clear()
+    localStorage.clear();
   }
 }
